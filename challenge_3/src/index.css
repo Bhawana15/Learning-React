@@ -1,0 +1,28 @@
+* {
+    background-color: #d6ecef;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    padding: 30px;
+}
+
+.wish {
+    align-items: center;
+    margin-left: 480px;
+}
+
+h1 {
+    padding: 20px 20px;
+    background-color: white;
+    margin-top: 150px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+span{
+    background-color: white;
+}
