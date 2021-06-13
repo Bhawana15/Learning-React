@@ -27,6 +27,22 @@
 
  ![React-challenge-3](https://user-images.githubusercontent.com/44014956/121782456-22572900-cbc7-11eb-8de2-9b070a07c150.png)
 
+ ### Challenge-4
+ - Redo challenge-3 by using React components in App.js
+
+ ![React-challenge-4](https://user-images.githubusercontent.com/44014956/121814055-b0491780-cc8c-11eb-8959-dfc11537f4e9.png)
+
+ ### Challenge-5
+ - Create a new react app from scratch
+ - Implement a simple Calculator using React components and import statements.
+
+ ![React-challenge-5](https://user-images.githubusercontent.com/44014956/121810358-3316a600-cc7e-11eb-98d5-c6837d694a86.png)
+
+ ## Mini-Projects 
+
+ ### List Favorite Netflix Series using Card
+ - Create a react app from scratch
+ - List your top favorite Netflix series in the form of cards using Card components and a pleasant UI
 
  ## Prerequisites
  - HTML

@@ -1,43 +1,37 @@
-// var React = require('react') "OR"
 import React from 'react'
-// var ReactDOM = require('react-dom') "OR"
 import ReactDOM from 'react-dom'
-import "./index.css"
+import App from "./App";
 
+ReactDOM.render(<App />, document.getElementById("root"));
+
+/*
 const first_name = "Bhawana";
 const last_name = "Tiwari";
 const img1 = "https://picsum.photos/id/1/200/300";
 const img2 = "https://picsum.photos/id/2/250/300";
 const img3 = "https://picsum.photos/id/3/300/300";
 const img4 = "https://picsum.photos/id/4/350/300";
-const link = "https://www.linkedin.com/in/bhawanatiwari/"
+const link = "https://www.linkedin.com/in/bhawanatiwari/" 
 
-ReactDOM.render( 
-    <React.Fragment> 
-
-    <h1 className = "heading">My name is {first_name} {last_name} !!!</h1>
-    <p> "OR" you could also do it by using + operator</p> 
-    <h1 contentEditable = "true">My name is {first_name + " " + last_name} !!!</h1>
-    <p> "OR" you could also do it by using a back-tick operator</p>
-    <h1> {`My name is ${first_name} ${last_name} !!!`} </h1> 
-    <p>I am great. My lucky number is {3+4}. What is yours?</p>
-
+<h1 className = "heading">My name is {first_name} {last_name} !!!</h1>
     <a href = {link} target = "_myLinkedInProfile">
         <img src = {img1} alt = "Random Image"/>
     </a>
-
     <div className="img_div">
     <img src = {img2} alt = "Random Image"/>
     <img src = {img3} alt = "Random Image"/>
     <img src = {img4} alt = "Random Image"/>
-    </div>
-
-    </React.Fragment>, 
-    document.getElementById("root"))
-
+    </div>*/
+    // "OR" var React = require('react')
+    // "OR" var ReactDOM = require('react-dom')
     // You can write "React.Fragment" or only <> </> also does the same. Avoid writing <div> </div> because it creates
 // an extra div inside root.
-
+/*
+<p>I am great. My lucky number is {3+4}. What is yours?</p>
+<p> "OR" you could also do it by using + operator</p> 
+    <h1 contentEditable = "true">My name is {first_name + " " + last_name} !!!</h1>
+    <p> "OR" you could also do it by using a back-tick operator</p>
+    <h1> {`My name is ${first_name} ${last_name} !!!`} </h1> */
 // If you have to write Template Literals, then you have to use back-tick. 
 // And if we have to use JS inside it then we have to write $ and curly braces.
 // Adding HTML Global Attribute : contenteditable (as contentEditable) i.e in cameCase in h1 tag
