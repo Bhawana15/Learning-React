@@ -44,6 +44,8 @@
  - Create a react app from scratch
  - List your top favorite Netflix series in the form of cards using Card components and a pleasant UI
 
+ ![fav-netflix-series-card-ui](https://user-images.githubusercontent.com/44014956/121913081-b6073180-cd4e-11eb-945c-61f1ad0472e1.png)
+
  ## Prerequisites
  - HTML
  - CSS

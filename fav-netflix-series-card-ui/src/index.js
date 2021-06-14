@@ -2,43 +2,41 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from './Card';
 import "./index.css";
+import Sdata from "./Sdata";
 
 ReactDOM.render(
     <>
         <h1 className="heading_style"> List of my Favorite Netflix Series </h1>
         <Card 
-            imgsrc = "https://wallpapercave.com/wp/wp4056410.jpg"
-            title = "Netfilx Original Series"
-            sname = "DARK"
-            link = "https://www.netflix.com/in/title/80100172"
+            imgsrc = { Sdata[0].imgsrc }
+            title = { Sdata[0].title }
+            sname = { Sdata[0].sname }
+            link = { Sdata[0].link }
         />
         <Card 
-            imgsrc = "https://www.hitc.com/static/uploads/hitcn/1816/extracurricular_netflix_780_154494"
-            title = "A Netfilx Original Series"
-            sname = "extra curricular"
-            link = "https://www.netflix.com/in/title/80990668?source=35"
+            imgsrc = { Sdata[1].imgsrc }
+            title = { Sdata[1].title }
+            sname = { Sdata[1].sname }
+            link = { Sdata[1].link }
         />
         <Card 
-            imgsrc = "https://wallpapercave.com/wp/wp1917154.jpg"
-            title = "A Netfilx Original Series"
-            sname = "Stranger Things"
-            link = "https://www.netflix.com/in/title/80057281?preventIntent=true"
+        imgsrc = { Sdata[2].imgsrc }
+            title = { Sdata[2].title }
+            sname = { Sdata[2].sname }
+            link = { Sdata[2].link }
+        />
+        <Card 
+        imgsrc = { Sdata[3].imgsrc }
+            title = { Sdata[3].title }
+            sname = { Sdata[3].sname }
+            link = { Sdata[3].link } 
+        />
+        <Card 
+        imgsrc = { Sdata[4].imgsrc }
+            title = { Sdata[4].title }
+            sname = { Sdata[4].sname }
+            link = { Sdata[4].link } 
         />
     </>
     , document.getElementById('root')
 );
-
-/*
-<Card 
-            imgsrc = "https://wallpapercave.com/wp/wp1917154.jpg"
-            title = "A Netfilx Original Series"
-            sname = "The Vampire Diaries"
-            link = "https://www.netflix.com/in/title/70143860?preventIntent=true"
-        />
-        <Card 
-            imgsrc = "https://wallpapercave.com/wp/wp1917154.jpg"
-            title = "A Netfilx Original Series"
-            sname = "My first 2 love"
-            link = "https://www.netflix.com/in/title/81026700?preventIntent=true"
-        />
-        */
