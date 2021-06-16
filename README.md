@@ -38,6 +38,13 @@
 
  ![React-challenge-5](https://user-images.githubusercontent.com/44014956/121810358-3316a600-cc7e-11eb-98d5-c6837d694a86.png)
 
+
+ ### Challenge-6
+ - Create a new react app from scratch
+ - Implement a simple Slot Machine Game
+
+ ![React_challenge_6](https://user-images.githubusercontent.com/44014956/122214326-98110c80-cec7-11eb-814b-2410fec6ccc6.png)
+
  ## Mini-Projects 
 
  ### List Favorite Netflix Series using Card
